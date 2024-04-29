@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+}
+
+#hero-container {
+  height: 500px;
+  color: white;
+  background-image:/* another way set your background linear-gradient(red,blue) also can stacl images;*/ linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.25)), 
+    url("img/heli.png");
+  background-position: center, center;
+  background-size: cover, cover;
+  text-shadow:/* the main ones are x offset y offest and the colors, how fare you want the text to be shadows to be in the x and y axis*/ 2px 2px rgba(200,0,0,.3);
+  }
+
+
+h1 {
+  margin: 0;
+  padding-top: 40px;
+  font-family: "Alfa Slab One";
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#content div {
+  display: inline-block;
+  width: 39%;
+  padding: 40px 5%;
+  vertical-align: middle;
+}
+
+#message {
+  font-size: 16px;
+}
+
+#countdown {
+  font-size: 40px;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color:/*this will allowing to blend into the background*/ transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-left: 25%;
+  padding: 14px 28px;
+  width: 50%;
+  font-size: 20px;
+  text-shadow:/* the main ones are x offset y offest and the colors, how fare you want the text to be shadows to be in the x and y axis*/  2px 2px rgba(200,0,0,.3);
+  box-shadow: 2px 2px rgba(200,0,0,.3); 
+}
